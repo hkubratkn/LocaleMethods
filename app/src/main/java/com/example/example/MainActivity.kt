@@ -60,3 +60,21 @@ fun RegisterScreen() {
     }
 
 }
+
+
+
+
+
+
+
+
+
+        Text(viewModel.displayCountry) - United States - val displayCountry = Locale.getDefault().getDisplayCountry()
+        Text(viewModel.lang) - English - val lang = Locale.getDefault().getDisplayLanguage()
+        Text(viewModel.displayName) - English (United States) - val displayName = Locale.getDefault().displayName
+        Text(viewModel.country) - US - val country = Locale.getDefault().country
+        Text(viewModel.isO3Country) -USA - val isO3Country = Locale.getDefault().isO3Country
+        Text(viewModel.isO3Language) - eng - val isO3Language = Locale.getDefault().isO3Language
+        Text(viewModel.displayScript) -nope - val displayScript = Locale.getDefault().displayScript
+        Text(viewModel.displayVariant)-nope - val displayVariant = Locale.getDefault().displayVariant
+        Text(text = viewModel.extensionKeys.toString())-nope - val extensionKeys = Locale.getDefault().extensionKeys
